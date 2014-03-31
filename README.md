@@ -16,8 +16,7 @@ Then add the following to your HTML:
 ```html
 <script src="path/to/goboo-adapter.js"></script>
 <!-- use your GoBoo installation domain here
-                                   /
-                                  |
-                                  V   -->
+                                   |
+                                   V         -->
 <script>goboo.init({'host':'demo.goboo.io'});</script>
 ```
