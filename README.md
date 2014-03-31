@@ -1,4 +1,4 @@
-![GoBoo - GET IT. BOOK IT.](http://goboo.de/logo/200-gray.png)
+[![GoBoo - GET IT. BOOK IT.](http://goboo.de/logo/200-gray.png)](http://goboo.de)
 
 JavaScript API adapter
 ======================
