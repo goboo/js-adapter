@@ -1,0 +1,22 @@
+packages:
+    dist/goboo-adapter.js:
+        files:
+            - src/goboo.js
+            - src/goboo.Adapter.js
+            - src/goboo.Booking.js
+            - src/goboo.Mode.js
+            - src/goboo.Slot.js
+
+    dist/goboo-adapter.min.js:
+        filters: [yui-js]
+        files:
+            - |
+                /*!
+                 * GoBoo - GET IT. BOOK IT. [http://goboo.de]
+                 *
+                 * (c) Tristan Lins <t.lins@goboo.de>
+                 *
+                 * For the full copyright and license information, please view the LICENSE
+                 * file that was distributed with this source code.
+                 */
+            - @dist/goboo-adapter.js
