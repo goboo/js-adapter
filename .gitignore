@@ -10,7 +10,6 @@ Thumbs.db
 /.idea/
 /nbproject/
 
-# Composer
-/vendor/
-/components/
-/composer.phar
+# Vendor
+/node_modules/
+/bower_components/

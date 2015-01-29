@@ -25,6 +25,9 @@ goboo.Booking = function() {
 	var name;
 	var mobile;
 	var email;
+	var street;
+	var postcode;
+	var city;
 	var slots;
 	var attendance;
 	var players;
@@ -100,7 +103,76 @@ goboo.Booking = function() {
 	this.setEmail = function(newEmail) {
 		email = newEmail;
 	};
-	
+
+	/**
+	 * Get the contact street address of the booking.
+	 *
+	 * @memberof goboo.Booking
+	 * @alias goboo.Booking#getStreet
+	 * @access public
+	 * @returns int
+	 */
+	this.getStreet = function() {
+		return street;
+	};
+
+	/**
+	 * Set the contact street address of the booking.
+	 *
+	 * @memberof goboo.Booking
+	 * @alias goboo.Booking#setStreet
+	 * @access public
+	 */
+	this.setStreet = function(newStreet) {
+		street = newStreet;
+	};
+
+	/**
+	 * Get the contact postcode address of the booking.
+	 *
+	 * @memberof goboo.Booking
+	 * @alias goboo.Booking#getPostcode
+	 * @access public
+	 * @returns int
+	 */
+	this.getPostcode = function() {
+		return postcode;
+	};
+
+	/**
+	 * Set the contact postcode address of the booking.
+	 *
+	 * @memberof goboo.Booking
+	 * @alias goboo.Booking#setPostcode
+	 * @access public
+	 */
+	this.setPostcode = function(newPostcode) {
+		postcode = newPostcode;
+	};
+
+	/**
+	 * Get the contact city address of the booking.
+	 *
+	 * @memberof goboo.Booking
+	 * @alias goboo.Booking#getCity
+	 * @access public
+	 * @returns int
+	 */
+	this.getCity = function() {
+		return city;
+	};
+
+	/**
+	 * Set the contact city address of the booking.
+	 *
+	 * @memberof goboo.Booking
+	 * @alias goboo.Booking#setCity
+	 * @access public
+	 */
+	this.setCity = function(newCity) {
+		city = newCity;
+	};
+
 	/**
 	 * Get the slots of the booking.
 	 *

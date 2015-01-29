@@ -1,0 +1,19 @@
+{
+    "name": "goboo-js-adapter",
+    "version": "1.0.0",
+    "description": "Vanilla JavaScript adapter for the goboo booking system api.",
+    "homepage": "http://goboo.de",
+    "license": "MIT",
+    "authors": [
+        "Tristan Lins <tristan@lins.io> (https://tristan.lins.io)"
+    ],
+    "main": "dist/javascripts/goboo-adapter.js",
+    "dependencies": {
+        "date-w3c-format": "^1.0.0"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ]
+}
