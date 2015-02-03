@@ -1,16 +1,16 @@
 {
-  "name": "goboo-js-adapter",
-  "license": "MIT",
-  "author": {
-    "name": "Tristan Lins",
-    "email": "t.lins@goboo.de",
-    "url": "http://goboo.de"
-  },
-  "dependencies": {
-    "gulp": "^3.8",
-    "gulp-bower": "^0.0",
-    "gulp-concat": "^2.4.1",
-    "gulp-sourcemaps": "^1.2.2",
-    "gulp-uglify": "^1.0.1"
-  }
+    "name": "goboo-js-adapter",
+    "license": "MIT",
+    "author": {
+        "name": "Tristan Lins",
+        "email": "t.lins@goboo.de",
+        "url": "http://goboo.de"
+    },
+    "dependencies": {
+        "gulp": "^3.8",
+        "gulp-bower": "^0.0",
+        "gulp-concat": "^2.4.1",
+        "gulp-sourcemaps": "^1.2.2",
+        "gulp-uglify": "^1.0.1"
+    }
 }

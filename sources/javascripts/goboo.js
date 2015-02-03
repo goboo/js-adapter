@@ -48,13 +48,13 @@ goboo.env.adapter = null;
  * @access public
  */
 goboo.init = function(customOptions) {
-	var options = {
-		'host': 'demo.goboo.io'
-	};
+    var options = {
+        'host': 'demo.goboo.io'
+    };
 
-	for (var key in (customOptions || {})) {
-		options[key] = customOptions[key];
-	}
+    for (var key in (customOptions || {})) {
+        options[key] = customOptions[key];
+    }
 
-	goboo.env.adapter = new goboo.Adapter(options);
+    goboo.env.adapter = new goboo.Adapter(options);
 };
